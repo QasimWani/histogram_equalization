@@ -2,10 +2,10 @@
 Robust Local Histogram Equalization written from scratch
 
 <p>
-Histogram Equalization is a method in image processing of contrast manipulation using an image's histogram. 
+[Histogram Equalization](https://en.wikipedia.org/wiki/Histogram_equalization) is a method in image processing of contrast manipulation using an image's histogram. 
 A histogram is nothing but the probability distribution of its intensity values. This can be represented as a probability density function, pdf.
 Using this idea, we can manipulate the intensity value of an image using its corresponding histogram value. 
-</p
+</p>
 <p>
 There are two types of histogram equalization techniques, local and global. A global histogram equalization deals with manipulation of pixel values without
 the consultation of any neighbors. What this means is that the output intensity is a function of just the input value and the corresponding transformation function.
