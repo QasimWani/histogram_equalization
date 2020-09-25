@@ -41,4 +41,17 @@ intensity.
 ![Output Image](images/output_histogram_7kernel.png)
 
 
+
+```python
+Procedure:
+# steps:
+# 1. replicate padding.
+# 2. get slices (m x n) based on values for m and n.
+# 3. compute pdf for slice_i
+# 4. compute cdf for pdf(slice_i) with value z
+# 5. find the middle element and replace with the round(cdf) value z.
+# 6. return new matrix without the replicate padding.
+# 7. Repeat for all slices.
+# 8. reshape matrix to appropriate kernel formula if all values appended singularily.
+```
 # Run the [Colab](https://colab.research.google.com/drive/1UCgTdZMaFBSUlPakZFovCZ33bEMxJdo8) version to Reproduce results
